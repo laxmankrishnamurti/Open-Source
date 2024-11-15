@@ -1,5 +1,5 @@
 # The Open-Source Diary
 
-- ***Organization***
+- ***Organizations***
 - ***Projects***
 - ***Learnings***
