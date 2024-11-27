@@ -1,5 +1,6 @@
-# The Open-Source Diary
+# Where to start?
 
-- ***Organizations***
-- ***Projects***
-- ***Learnings***
+- **Learn Git & GitHub**
+- **Choose an open-source project**
+- **Understand the underlying concept**
+- **Learn and Contribute**
