@@ -13,7 +13,7 @@ Commit Object gives reference to ===> Tree Object ===> Blob Object
 
 ### `1. Commit Object`
 
-Each commit in the project is stored in _.git_ directory in the form of a commit object contains the following information:
+Each commit of the project is stored in _.git_ directory in the form of a commit object contains the following information:
 
 - Tree Object
 - Parent Commit Object
