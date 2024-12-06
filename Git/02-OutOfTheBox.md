@@ -44,6 +44,9 @@ Blob Object is present in the tree object and contains the actual file content. 
 ## Commands
 
 ```bash
+# Log to get commit hash
+git log
+
 # Inside a commit object
 git show -s --pretty=raw <commitHash>
 ```
@@ -52,7 +55,7 @@ git show -s --pretty=raw <commitHash>
 # Output
 
 tree d70489360da5172c99ebeb427b466249b534dcf4
-parent 749022c20c39643519c628cab10da06f96faa04d
+parent 749022c20c39643519c628cab10da06f96faa04d (Previous one or Parent Hash)
 author laxmankrishnamurti <freelancing.laxman@gmail.com> 1733004480 +0530
 committer laxmankrishnamurti <freelancing.laxman@gmail.com> 1733004480 +0530
 
@@ -67,7 +70,6 @@ git ls-tree <TreeId>
 
 ```bash
 # Output
-
 
 100644 blob 2eea525d885d5148108f6f3a9a8613863f783d36    .gitignore
 100644 blob 802c8d9edbcd00fce049bb16446133cf8c93b29a    fileOne.md
