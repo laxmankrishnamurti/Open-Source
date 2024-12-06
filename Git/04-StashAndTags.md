@@ -55,3 +55,30 @@ git stash clear
 ```
 
 ## `Git Tags`
+
+Tags are a way to mark a specific point in our repository. They are useful when we want to remember a specific version of our code or when we want to refer to a specific commit.
+
+In short, Tags are like sticky notes that we can attach to our commits.
+
+```bash
+# Create a tag
+git tag <tag-name>
+
+# Create an annotated tag
+git tag -a <tag-name> -m "<message or released version>"
+
+# List all tags
+git tag
+
+# Tag a specific commit
+git tag <tag-name> <commit-hash>
+
+# Push tags to remote repository
+git push origin <tag-name>
+
+# Delete a tag
+git tag -d <tag-name>
+
+# Delete tag on remote repository
+git push origin :<tag-name>
+```
