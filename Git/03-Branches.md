@@ -77,3 +77,19 @@ Resolve the conflict manually and then run the command:
 git add <file-name>
 git commit -m "<message>"
 ```
+
+### `Useful command`
+
+```bash
+# Rename branch
+git branch -m <old-brach-name> <new-branch-name>
+
+# Delete branch
+git branch -d <branch-name>
+
+# Checkout to any existing branch
+git checkout <branch-name>
+
+# List all branches
+git branch
+```
