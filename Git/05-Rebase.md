@@ -24,3 +24,23 @@ But, this creates an unnecessary commit which dosen't make any sense. To solve t
 git checkout <brach-name>
 git rebase <main/master>
 ```
+
+## `Git Reflog`
+
+Git Reflog is a command that show us the history of our commits. It allows us to see the changes that we have made to our repository over time.
+
+This can be useful for debugging and understanding the history of our project.
+
+```bash
+# All commits
+git reflog
+
+# Specific commit
+git reflog <commit-hash>
+
+# Hard-reset commit (carefully)
+git reset --hard <commit-hash>
+
+# Reset to the nth commit
+git reset --hard HEAD@{<number>}
+```
