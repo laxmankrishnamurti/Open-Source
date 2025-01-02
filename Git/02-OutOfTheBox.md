@@ -34,7 +34,7 @@ Everything is stored as key-value pairs in the tree object.
 
 ### `3. Bloob Object`
 
-Blob Object is present in the tree object and contains the actual file content. This is the place where the file content is stored.
+Blob Object is present in the tree object and contains the actual file content. This is the place where the actual code are stored.
 
 - Commit
   - Tree
