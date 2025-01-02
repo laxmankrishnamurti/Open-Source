@@ -23,7 +23,7 @@ Each commit of the project is stored in _.git_ directory in the form of a commit
 
 ### `2. Tree Object`
 
-Tree object is a container of files and folders in the project. It contains information:
+Tree object is a container for files and folders in the project. It contains information:
 
 - File Mode
 - File Name
