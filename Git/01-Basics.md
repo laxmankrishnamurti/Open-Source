@@ -41,7 +41,7 @@ git init (Tracking start)
 - Flow
   - Initialize a repository
   - Write
-  - Add (Stagining area)
+  - Add (Staging area)
   - Commit (Enter into repo => Save locally => Check-point)
   - Push (To GitHub)
 
