@@ -1,7 +1,7 @@
 # Underlying concept of Git tracking system
 
 - Every commit gets a unique SHA(hash code) Id used to track file changes.
-- Every hash contain lots of data and depends on its' previous one.
+- Every hash contain lots of data and it depends on its' previous one.
 
 ## `3-Pillers of Git`
 
