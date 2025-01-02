@@ -7,7 +7,7 @@
 
 1. Commit object (Unique SHA)
 2. Tree Object (Reference to go back)
-3. Blob Object (Actual code that git has be to saved)
+3. Blob Object (The place where git stores our code)
 
 Commit Object gives reference to ===> Tree Object ===> Blob Object
 
