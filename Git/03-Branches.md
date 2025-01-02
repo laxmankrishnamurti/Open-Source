@@ -13,7 +13,7 @@ git branch
 git branch <new-branch>
 git switch <existing-branch-name>
 
-# Create and switch to the brach
+# Create and switch to a new branch
 git switch -c <branch-name>
 
 # Checkout to existing branch
