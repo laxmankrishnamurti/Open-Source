@@ -1,6 +1,6 @@
 # `Rebase`
 
-- We can use the fature when we want to change the base of the branch.
+- We can use the feature when we want to change the base of the branch.
 - It means we are trying to move our branch to a new starting point.
 
 ```bash
