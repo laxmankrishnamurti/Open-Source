@@ -20,13 +20,13 @@ git switch -c <branch-name>
 git checkout <branch-name>
 ```
 
-When we create a new brach to the repository it creates a new _reference_ of the branch in the that location:
+When we create a new branch to the repository git creates a new _reference_ of the branch in the location:
 
 ```bash
 .git/refs/heads/new-branch-name
 ```
 
-And when we switch to any banch the HEAD starts pointing to the current branch, like this:
+And when we checkout to other branch, HEAD starts pointing to the current branch, like this:
 
 ```bash
 ref: refs/heads/bug-fix
@@ -34,7 +34,7 @@ ref: refs/heads/bug-fix
 
 ## `Merging`
 
-Now, its time to merge or collect all work that has been done. In merging, we collect all resources from different-different branches and adds it with the _main_ branch.
+Now, its time to merge or collect all work together that has been done. In merging, we collect all resources from different branches and merge it to the _main_ branch.
 
 ```bash
 git checkout main/master
@@ -45,7 +45,7 @@ git merge <branch-name>
 
 ### `Not fast-forward merge`
 
-All are same but the point is main branch is also in development phase. Branches and the main branch is updating continuously and has different state.
+All are same but the point is main branch is also in development phase. All other branches and the main branch itself is updating continuously, hence all have different kind of state.
 
 ```bash
 # Keep in mind that the branch is not up-to dated with the main branch
@@ -56,9 +56,9 @@ git merger <branch-name>
 
 Conflicts happens when we try to merge same file with different-different content.
 
-There is no magic to solve merge conflicts we need to manually resolve the issue that we face while merging. The merger conflicts happens when we try to merge those files which has different-different content.
+There is no magic to solve merge conflicts we need to manually resolve the issue that we face while merging. The merger conflicts happens when we try to merge the same files with different content.
 
-It means let say there is a file in the main branch and we have created a new-branch and starts making changes in the same file in both branches and once it done we try to merge the brach and we checkout to the main branch and run the command:
+It means let say there is a file in the main branch and we have created a new-branch and starts making changes in the same file in both branches and once it get done we try to merge the branch and we checkout to the main branch and run the command:
 
 ```bash
 git merge <branch-name>
