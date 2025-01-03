@@ -64,7 +64,7 @@ It means let say there is a file in the main branch and we have created a new-br
 git merge <branch-name>
 ```
 
-We'll see a conflict file is opened which we need to manually resolve and then add it and then commit it.
+We'll see a conflict file is opened which we have to resolve it manually and then add it and then commit it.
 
 ```bash
 git merge --abort
