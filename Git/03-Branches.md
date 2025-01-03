@@ -58,7 +58,7 @@ Conflicts happens when we try to merge same file with different-different conten
 
 There is no magic to solve merge conflicts we need to manually resolve the issue that we face while merging. The merger conflicts happens when we try to merge the same files with different content.
 
-It means let say there is a file in the main branch and we have created a new-branch and starts making changes in the same file in both branches and once it get done we try to merge the branch and we checkout to the main branch and run the command:
+It means let say there is a file in the main branch and we have created a new-branch and start making changes in the same file in both branches and once it get done we try to merge the branch so we checkout to the main branch and run the command:
 
 ```bash
 git merge <branch-name>
